@@ -9,8 +9,8 @@ dependencies:
     specifier: workspace:*
     version: link:../../packages/ui
   date-fns:
-    specifier: 3.2.0
-    version: 3.2.0
+    specifier: 3.6.0
+    version: 3.6.0
   next:
     specifier: ^14.1.1
     version: 14.1.4(react-dom@18.2.0)(react@18.2.0)
@@ -415,8 +415,8 @@ packages:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
     dev: true
 
-  /date-fns@3.2.0:
-    resolution: {integrity: sha512-E4KWKavANzeuusPi0jUjpuI22SURAznGkx7eZV+4i6x2A+IZxAMcajgkvuDAU1bg40+xuhW1zRdVIIM/4khuIg==}
+  /date-fns@3.6.0:
+    resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
     dev: false
 
   /debug@4.3.4:
