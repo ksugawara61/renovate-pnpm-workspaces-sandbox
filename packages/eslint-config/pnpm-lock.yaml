@@ -19,7 +19,7 @@ devDependencies:
     version: 9.1.0(eslint@8.57.0)
   eslint-config-turbo:
     specifier: ^1.12.4
-    version: 1.13.2(eslint@8.57.0)
+    version: 1.13.3(eslint@8.57.0)
   eslint-plugin-only-warn:
     specifier: ^1.1.0
     version: 1.1.0
@@ -28,11 +28,6 @@ devDependencies:
     version: 5.4.4
 
 packages:
-
-  /@aashutoshrathi/word-wrap@1.2.6:
-    resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
-    engines: {node: '>=0.10.0'}
-    dev: true
 
   /@ampproject/remapping@2.3.0:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
@@ -1364,13 +1359,13 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-config-turbo@1.13.2(eslint@8.57.0):
-    resolution: {integrity: sha512-TzvsMwNJx/P4JYw79iFqbyQApnyT050gW7dBxnNeNVl3pVMnT2rwaFo9Q3Hc49Tp5NANxEwYN9RStF50P/IwGA==}
+  /eslint-config-turbo@1.13.3(eslint@8.57.0):
+    resolution: {integrity: sha512-if/QtwEiWZ5b7Bg8yZBPSvS0TeCG2Zvfa/+XBYANS7uSYucjmW+BBC8enJB0PqpB/YLGGOumeo3x7h1Nuba9iw==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
       eslint: 8.57.0
-      eslint-plugin-turbo: 1.13.2(eslint@8.57.0)
+      eslint-plugin-turbo: 1.13.3(eslint@8.57.0)
     dev: true
 
   /eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.29.1):
@@ -1639,8 +1634,8 @@ packages:
       '@microsoft/tsdoc-config': 0.16.2
     dev: true
 
-  /eslint-plugin-turbo@1.13.2(eslint@8.57.0):
-    resolution: {integrity: sha512-QNaihF0hTRjfOBd1SLHrftm8V3pOU35CNS/C0/Z6qY1xxdL1PSv4IctEIldSMX7/A1jOPYwMPO7wYwPXgjgp/g==}
+  /eslint-plugin-turbo@1.13.3(eslint@8.57.0):
+    resolution: {integrity: sha512-RjmlnqYsEqnJ+U3M3IS5jLJDjWv5NsvReCpsC61n5pJ4JMHTZ/lU0EIoL1ccuL1L5wP0APzdXdByBxERcPQ+Nw==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
@@ -1738,7 +1733,7 @@ packages:
       lodash.merge: 4.6.2
       minimatch: 3.1.2
       natural-compare: 1.4.0
-      optionator: 0.9.3
+      optionator: 0.9.4
       strip-ansi: 6.0.1
       text-table: 0.2.0
     transitivePeerDependencies:
@@ -2573,16 +2568,16 @@ packages:
       wrappy: 1.0.2
     dev: true
 
-  /optionator@0.9.3:
-    resolution: {integrity: sha512-JjCoypp+jKn1ttEFExxhetCKeJt9zhAgAve5FXHixTvFDW/5aEktX9bufBKLRRMdU7bNtpLfcGu94B3cdEJgjg==}
+  /optionator@0.9.4:
+    resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
     engines: {node: '>= 0.8.0'}
     dependencies:
-      '@aashutoshrathi/word-wrap': 1.2.6
       deep-is: 0.1.4
       fast-levenshtein: 2.0.6
       levn: 0.4.1
       prelude-ls: 1.2.1
       type-check: 0.4.0
+      word-wrap: 1.2.5
     dev: true
 
   /p-limit@2.3.0:
@@ -3270,6 +3265,11 @@ packages:
     hasBin: true
     dependencies:
       isexe: 2.0.0
+    dev: true
+
+  /word-wrap@1.2.5:
+    resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
+    engines: {node: '>=0.10.0'}
     dev: true
 
   /wrappy@1.0.2:
